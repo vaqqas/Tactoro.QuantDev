@@ -1,0 +1,9 @@
+USE QuantDevDB
+GO
+
+IF OBJECT_ID('PPL.[UserType]', 'U') IS NOT NULL
+	DROP TABLE PPL.[UserType]
+
+CREATE TABLE PPL.[UserType] (
+	[Name] NVARCHAR(20) PRIMARY KEY
+	)

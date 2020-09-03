@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tactoro.QuantDev", "Tactoro.QuantDev\Tactoro.QuantDev.csproj", "{2C430320-B98A-44D2-8F6A-393920870601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{CD246BE2-3CCD-42EB-8BB6-FB241791D690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "100_Database", "100_Database", "{28E933B4-3313-44BD-8FF4-884EFEF430C6}"
+	ProjectSection(SolutionItems) = preProject
+		DB\101_CreateDB.sql = DB\101_CreateDB.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "200_Tables", "200_Tables", "{98CA9815-DD9D-463A-AF23-961C00AC3C42}"
+	ProjectSection(SolutionItems) = preProject
+		DB\201_Create Tables.sql = DB\201_Create Tables.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "300_Data", "300_Data", "{F1AE4606-6F9F-4232-ABBD-5B730C13B8ED}"
+	ProjectSection(SolutionItems) = preProject
+		300_Insert PersonTypes.sql = 300_Insert PersonTypes.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tactoro.QuantDev.Test", "Tactoro.QuantDev.Test\Tactoro.QuantDev.Test.csproj", "{AEFFF821-F31D-4A32-80C3-0DEA5D583D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C430320-B98A-44D2-8F6A-393920870601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C430320-B98A-44D2-8F6A-393920870601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C430320-B98A-44D2-8F6A-393920870601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C430320-B98A-44D2-8F6A-393920870601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFFF821-F31D-4A32-80C3-0DEA5D583D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFFF821-F31D-4A32-80C3-0DEA5D583D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFFF821-F31D-4A32-80C3-0DEA5D583D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFFF821-F31D-4A32-80C3-0DEA5D583D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E933B4-3313-44BD-8FF4-884EFEF430C6} = {CD246BE2-3CCD-42EB-8BB6-FB241791D690}
+		{98CA9815-DD9D-463A-AF23-961C00AC3C42} = {CD246BE2-3CCD-42EB-8BB6-FB241791D690}
+		{F1AE4606-6F9F-4232-ABBD-5B730C13B8ED} = {CD246BE2-3CCD-42EB-8BB6-FB241791D690}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38E66243-BF76-45C7-9F47-E4A501A5E91D}
+	EndGlobalSection
+EndGlobal
